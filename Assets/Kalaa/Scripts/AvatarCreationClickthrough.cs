@@ -21,7 +21,7 @@ public class AvatarCreationClickthrough : VRUIBehavior {
 		material = Material.Instantiate(GetComponent<Renderer>().sharedMaterial);
 		SetUITexture();
 		GetComponent<Renderer>().sharedMaterial = material;
-		
+
 		avatarMaterial = Material.Instantiate(avatar.GetComponent<Renderer>().sharedMaterial);
 		SetAvatarTexture();
 		avatar.GetComponent<Renderer>().sharedMaterial = avatarMaterial;

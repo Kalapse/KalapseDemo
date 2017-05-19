@@ -10,7 +10,7 @@ public class VRUIBehavior : MonoBehaviour {
 	public void Start () {
 		gameObject.layer = 8;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 
